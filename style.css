@@ -1,0 +1,109 @@
+body{
+font-family: Garamond, serif;
+background-image: url("https://images.unsplash.com/photo-1523821741446-edb2b68bb7a0?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+background-size:250%;
+background-blend-mode: color;
+}
+
+
+.heading{
+text-align: center;
+background-image: url("https://png.pngtree.com/background/20211215/original/pngtree-abstract-texture-gradient-yellow-orange-background-picture-image_1455574.jpg");
+border: solid;
+border-radius: 10px;
+border-color: black;
+border-width: 5px;
+padding: 20px;
+text-decoration-color: aqua;
+color:aliceblue;
+}
+
+.list{
+display:inline-flex;
+list-style:disc;
+background:peachpuff;
+border-radius: 20px;
+margin-top: 20px;
+border: 4px solid black;
+flex-wrap:wrap;
+justify-content: center;
+align-items: auto;
+margin:auto;
+gap:2rem;
+}
+.list-item{
+    display:inline-flex;
+    flex-direction: column;
+    align-items: center;
+   margin:auto;
+}
+
+.paneer.button{
+    position: relative;
+    
+    height:auto;
+    display: block;
+    box-sizing: border-box;
+    margin:auto;
+    width:auto;
+    border:5px solid transparent;
+    border-radius:10px;
+    
+    animation: shifts  13s infinite ,colorchangeb 15s infinite;
+    
+
+}
+
+.paneer.button:hover{
+    border-style: ridge;
+    border-color: black;
+    animation-play-state: paused;
+    
+
+}
+
+.paneer.img{
+    margin:0px;
+    padding:0px;
+    width:100%;
+    height: auto;
+   
+}
+@keyframes shifts{
+0%{left:0px;}
+25%{left:-750px;}
+
+75%{left:750px;}
+100%{left:0px;}
+
+}
+
+
+.items{
+
+color:black;
+font-size:24px;
+margin:20px;
+font-weight:bold;
+text-decoration:wavy;
+flex: 1;
+}
+.items:hover{
+color:blue;
+animation: colorchange 15s infinite;
+}
+@keyframes colorchange{
+0%{color:red;}
+25%{color:yellow;}
+50%{color:blue;}
+75%{color:green;}
+100%{color:red;}
+}
+@keyframes colorchangeb{
+0%{border-color:red;}
+25%{border-color:yellow;}
+50%{border-color:blue;}
+75%{border-color:green;}
+100%{border-color:red;}
+}
+
